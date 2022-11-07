@@ -15,67 +15,67 @@ Pasos a seguir para poder clonar el repositorio y utilizarlo
 ===
 -Clonar el repositorio
 --- 
-git clone https://github.com/AgustinMondani/ProyectoFinalCoder.git
+	git clone https://github.com/AgustinMondani/ProyectoFinalCoder.git
 
 -Correr en la terminar el comando para crear el entorno virtual
 ---
-python -m venv env
+	python -m venv env
 
 -Para levarlo ejecutar el comando(comando para Windos)
 ---
-env\Scripts\activate
+	env\Scripts\activate
 
 En Mac o Linux probar con
 ---
-source env/bin/activate
+	source env/bin/activate
 
 -Ingresar a la carpeta *app*
 ---
-cd app
+	cd app
 
 -Instalar todas la dependecias que sean necesarios y que pida
 ---
-pip install -r requirements.txt --no-cache
-pip freeze
-install environ --- python -m pip install django-environ
-install dj-database-url --- python -m pip install dj-database-url
+	pip install -r requirements.txt --no-cache
+	pip freeze
+	install environ --- python -m pip install django-environ
+	install dj-database-url --- python -m pip install dj-database-url
 
 -Crear archivo .env de variables de entorno
 ---
-cp .env.example .env
+	cp .env.example .env
 
 -Crear la *key* con la shell
 ---
-python manage.py shell
-from django.core.management.utils import get_random_secret_key
-print(get_random_secret_key())
+	python manage.py shell
+	from django.core.management.utils import get_random_secret_key
+	print(get_random_secret_key())
 
 -Copiar la *key* que nos imprime y pegarla en *SECRET_KEY*
 ---
-\ProyectoFinalCoder\app\.env 
+	\ProyectoFinalCoder\app\.env 
 
 -Dentro de esa ruta y debe quedar *asi*
 ---
-    SECRET_KEY= *AL KEY COPIADA*
+	SECRET_KEY= *AL KEY COPIADA*
 	DEBUG=True
 	ALLOWED_HOSTS=*,
 
 -Migraciones(crear)
 ---
-python manage.py makemigrations
+	python manage.py makemigrations
 
 -Migraciones(ejecutar)
 ---
-python manage.py migrate
+	python manage.py migrate
 
 -Crear el *SuperUsuario*, ingresar nombre, email y password
 ---
-python manage.py createsuperuser
+	python manage.py createsuperuser
 
 -Generar statics
 ---
-python manage.py collectstatic
+	python manage.py collectstatic
 
 -Y finalmente correr el servido para poder utilizar el Blog
 ---
-python manage.py runserver
+	python manage.py runserver
