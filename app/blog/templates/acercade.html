@@ -1,0 +1,38 @@
+{% extends 'layouts/layout.html' %}
+{% block title %}| Conocer mas...{% endblock %}
+{% block content %}
+    <div class="px-5 py-2 mb-4 bg-light rounded-3 shadow">
+        <div class="container-fluid">
+            <h1 class="display-5 fw-bold">Quienes somos...</h1>
+            <p class="col-md-10 fs-5">Este blog fue creado para el curso de CoderHouse por <strong>Franco Llanos</strong> y <strong>Agustin Mondani</strong>,
+                somos dos principiantes en la programación pero con mucha dedicacion y ansias por aprender. Nos encontramos con muchas dificultades 
+                al momento de realizar el tranajo, pero siemore pueden resolverse con una investigacion.
+            </p>
+        </div>
+    </div>
+
+    <div class="row align-items-md-stretch mb-5">
+        <div class="col-md-6">
+            <div class="h-100 p-5 text-white bg-dark rounded-3">
+                <img src= "/media/images/burro.png"
+                     alt="dory" class="img-thumbnail rounded-circle" width="300" height="300">
+                <h2 class="my-3">Franco Llanos</h2>
+                <p>Vivo en la ciudad de Buenos Aires Argentina, siempre fui apasionado por la computación,
+                      y deseo seguir trabajando para incursionar aun más en el mundo de la programación. </p>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="h-100 p-5 text-white bg-dark border rounded-3">
+                <img src="/media/images/dory.png"
+                     alt="foto Dory" class="img-thumbnail rounded-circle" width="500" height="300">
+                <h2 class="my-3">Agustin Mondani</h2>
+                <p>Soy residente de Argentina, me encuentro estudiando la carrera de Ing. en sistemas de Información en la Facultad
+                    Regional de Buenos Aires (UTN), y tengo conocimiento en distintos lenguajes de progrmacion como JavaScript, C++,
+                    y tambien en lenguajes de FrontEnd Html y Css.
+                    Relice el curso para adquirir conocimientos y poder ampliar mi curriculum.
+                </p>
+            </div>
+        </div>
+    </div>
+{% endblock %}
