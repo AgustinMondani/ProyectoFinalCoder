@@ -7,15 +7,17 @@
 <br>
 <br>
 {% for post in posts %}
-
+ 
     <li>{{post}}
-    <button>
-        <a href="{% url 'blogpostupdate' post.pk %}">Editar</a>
-    </button>
-    <button>
-        <a href="{% url 'blogpostdelete' post.pk %}">Eliminar</a>
-    </button>
-    </li>
+        <div>
+            <button>
+                <a href="{% url 'blogpostupdate' post.pk %}">Editar</a>
+            </button>
+            <button>
+                <a href="{% url 'blogpostdelete' post.pk %}">Eliminar</a>
+            </button>
+            </li>
+        </div>
 {% endfor %}
 
 {% endblock %}

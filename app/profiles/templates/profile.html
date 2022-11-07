@@ -5,7 +5,7 @@
     <section>
         <header>
             <div class="shadow d-flex flex-row align-items-center mb-5 position-relative"
-                 style="height:150px; background-image: url('/media/images/bg-profile.jpeg'); background-repeat: no-repeat; background-size: auto;">
+                 style="height:150px; background-image: url('/media/images/bg-profile.jpeg');  background-size: auto;">
 
                 <img src="/media/{{ user.profile.foto }}" alt="foto de perfil"
                      class="img-thumbnail rounded-circle shadow mx-2"
@@ -24,7 +24,7 @@
             </div>
         </header>
 
-        <div class="p-4 my-4 shadow rounded mx-auto">
+        <div class="p-4 my-4 shadow rounded mx-auto" style="border-color: black; border-width: 5px; border-style: solid;">
             <form action="{% url 'profile' %}" method="post" enctype="multipart/form-data">
                 {% csrf_token %}
                 <div class="d-flex flex-column gap-3">

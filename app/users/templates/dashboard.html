@@ -3,7 +3,7 @@
 {% block content %}
     <div class="d-flex justify-content-between mb-4">
         <div>
-            <p class="fs-3 lh-1">{{ author }}</p>
+            <p class="fs-3 lh-1"> <strong>MIS POSTS</strong></p>
             <p class="font-xs text-light-blog">autor</p>
         </div>
 
@@ -32,8 +32,8 @@
                                 <img class="rounded shadow" src="/media/{{ post.foto }}" width="80" height="80"
                                      alt="foto post">
                                 <div class="d-flex flex-column text-wrap">
-                                    <p class="fw-semibold fs-6">{{ post.title }}</p>
-                                    <p class="font-xs text-light-blog">Creado: {{ post.created_at }}<br>
+                                    <p class="fw-semibold fs-6" style="color: black ;">{{ post.title }}</p>
+                                    <p class="font-xs text-light-blog" style="color: black ;">Creado: {{ post.created_at }}<br>
                                         Publicado: {{ post.published_at }}</p>
                                 </div>
                             </td>
