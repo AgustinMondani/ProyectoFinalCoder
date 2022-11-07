@@ -1,7 +1,9 @@
 # Nuestro Blog de CoderHouse (PROYECTO FINAL)
 
-===
 
-Este proyecto **"Blog"** fue relizado por **Jorge Guzmán** y **Juan Almazán**. El lenguaje de programación es **Python** 3.9 bajo el framework **Django** 4.0.5.
+Este es el **"Blog"** de **Franco Llaanos** y **Agustin Mondani**. El mismo fue realizado para el curso de python de CoderHouse utilizando todas las herramientas dadas por el mismo con la version de Python **3.10.7** y la version de Django **4.1.1**.
 
-Este Blog cuenta con Publicaciones, Búsqueda de publicaciones, Comentarios a publicaciones, Registro a newsletter, Registro de usuarios, Registro de Perfi de usuarios, Acerca de, Autenticación y la sección admin de Django.
+
+TODO LO QUE CONTIENE EL BLOG
+
+    Diario para suscribirse, posteos, articulos, una barra de busqueda para palabras claves, registro de usuarios, el admin de Django y comentarios en los post.
