@@ -9,7 +9,9 @@ Diario para suscribirse, posteos, artículos, una barra de búsqueda para palabr
 
 La forma en que nos desempeñamos al momento de hacer el proyecto fue de forma ordenada, siempre contribuyendo los dos en todos los procesos y etapas del mismo, y con mucha ayuda de internet para poder darle estilo a la página y poder conseguir un resultado amigable y fácil de usar.
 
-Presentación del Blog: por rellenar
+*Presentación del Blog:*
+---
+	https://youtu.be/mYL_oKgvTZ8
 
 Pasos a seguir para poder clonar el repositorio y utilizarlo
 ===
